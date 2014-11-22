@@ -36,8 +36,6 @@ function constructCell(dimension, mask) {
       }
     }
   }
-  
-  //Preprocess points so first d+1 points are linearly independent
   var hull = chull(points)
   var faces = []
 i_loop:
